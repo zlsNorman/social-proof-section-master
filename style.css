@@ -127,7 +127,7 @@ h3 {
     grid-column-gap: 30px;
     grid-row-gap: 50px;
     padding: 3rem;
-    background: url(images/bg-pattern-bottom-desktop.svg) no-repeat 31rem;
+    background: url(images/bg-pattern-top-desktop.svg) no-repeat top,url(images/bg-pattern-bottom-desktop.svg) no-repeat 31rem;
   }
   .headInform {
     grid-area: 1 / 1 / 2 / 2;
@@ -135,7 +135,6 @@ h3 {
     background-repeat: no-repeat;
     background-position: top;
     color: var(--DarkGrayishMagenta);
-    background: url(images/bg-pattern-top-desktop.svg) no-repeat top;
   }
   .headInform h1 {
     padding: 5rem 0rem 1rem 0rem;
