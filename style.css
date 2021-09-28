@@ -125,7 +125,7 @@ h3 {
     grid-template-columns: 0.5fr,1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
-    grid-row-gap: 70px;
+    grid-row-gap: 50px;
     padding: 3rem;
     background: url(images/bg-pattern-bottom-desktop.svg) no-repeat 31rem;
   }
@@ -144,6 +144,7 @@ h3 {
     font-size: 2rem;
   }
   .rating {
+    padding: 5rem 0rem 1rem 0rem;
     text-align: center;
     display: flex;
     flex-direction: column;
